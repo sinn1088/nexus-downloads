@@ -20,9 +20,46 @@
           "value": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'"
         }
       ]
+    },
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    },
+    {
+      "source": "/release.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    },
+    {
+      "source": "/downloads/latest.apk",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
     }
   ],
   "redirects": [
+    {
+      "source": "/downloads/NEXUS-OS-1.0.2-beta.apk",
+      "destination": "https://github.com/sinn1088/nexus-downloads/releases/download/v1.0.2-beta/NEXUS-OS-1.0.2-beta.apk",
+      "permanent": false
+    },
+    {
+      "source": "/downloads/latest.apk",
+      "destination": "https://github.com/sinn1088/nexus-downloads/releases/download/v1.0.2-beta/NEXUS-OS-1.0.2-beta.apk",
+      "permanent": false
+    },
     {
       "source": "/downloads/NEXUS-OS-1.0.1-beta.apk",
       "destination": "https://github.com/sinn1088/nexus-downloads/releases/download/v1.0.1-beta/NEXUS-OS-1.0.1-beta.apk",

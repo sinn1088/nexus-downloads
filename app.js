@@ -6,11 +6,11 @@ const instructions = {
     ],
     [
       "Open it in Files",
-      "Find NEXUS-OS-1.0.1-beta.apk in Downloads. If prompted, allow your file manager to install this app, then choose Install. If NEXUS is already installed, choose Update; keep the existing app installed to preserve its settings.",
+      "Find NEXUS-OS-1.0.2-beta.apk in Downloads. If prompted, allow your file manager to install this app, then choose Install. If NEXUS is already installed, choose Update; keep the existing app installed to preserve its settings.",
     ],
     [
       "Make yourself at home",
-      "Open NEXUS OS from its app icon. It currently opens in landscape. Add your own TMDb read token in Settings for movie and TV discovery.",
+      "Open NEXUS OS from its app icon. Open Settings and confirm NEXUS OS 1.0.2-beta · Android app. It opens in landscape. Add your own TMDb read token for movie and TV discovery.",
     ],
     [
       "Try the essentials",
