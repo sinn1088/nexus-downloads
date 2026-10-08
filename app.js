@@ -6,7 +6,7 @@ const instructions = {
     ],
     [
       "Open it in Files",
-      "Find NEXUS-OS-1.0.0-beta.apk in Downloads. If prompted, allow your file manager to install this app, then choose Install.",
+      "Find NEXUS-OS-1.0.1-beta.apk in Downloads. If prompted, allow your file manager to install this app, then choose Install. If NEXUS is already installed, choose Update; keep the existing app installed to preserve its settings.",
     ],
     [
       "Make yourself at home",
@@ -14,7 +14,7 @@ const instructions = {
     ],
     [
       "Try the essentials",
-      "Check live TV sound, channel switching, Back and opening your streaming apps. Bluetooth remote behavior needs testing on your particular device.",
+      "Check live TV sound, swipe up/down to change channel, the 123 number pad, Watching, Back and opening your streaming apps. Native live-stream PiP requires Android 8 or newer and device support; physical device testing is still pending.",
     ],
   ],
   tv: [
@@ -64,13 +64,11 @@ function showInstructions(platform, scroll = false) {
       button.setAttribute("aria-pressed", String(active));
     });
   if (scroll)
-    document
-      .querySelector("#install")
-      .scrollIntoView({
-        behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
-          ? "instant"
-          : "smooth",
-      });
+    document.querySelector("#install").scrollIntoView({
+      behavior: matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? "instant"
+        : "smooth",
+    });
 }
 document
   .querySelectorAll("[data-platform]")

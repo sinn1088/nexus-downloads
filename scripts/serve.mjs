@@ -15,10 +15,10 @@ http
       const pathname = decodeURIComponent(
         new URL(req.url, "http://localhost").pathname,
       );
-      if (pathname === "/downloads/NEXUS-OS-1.0.0-beta.apk") {
+      if (pathname === "/downloads/NEXUS-OS-1.0.1-beta.apk") {
         res.writeHead(307, {
           Location:
-            "https://github.com/sinn1088/nexus-downloads/releases/download/v1.0.0-beta/NEXUS-OS-1.0.0-beta.apk",
+            "https://github.com/sinn1088/nexus-downloads/releases/download/v1.0.1-beta/NEXUS-OS-1.0.1-beta.apk",
         });
         res.end();
         return;

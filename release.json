@@ -1,12 +1,12 @@
 {
-  "fileName": "NEXUS-OS-1.0.0-beta.apk",
-  "sizeBytes": 14343149,
-  "sha256": "88b8d2de5f7cc307323ef48204a20d72a9adcfb937bd70b25bae0429af83e63f",
-  "version": "1.0.0-beta",
+  "fileName": "NEXUS-OS-1.0.1-beta.apk",
+  "sizeBytes": 14508856,
+  "sha256": "da535cec78e4e2f321914f151c204baec070aff6ae2ef7957dbb30a66131f11d",
+  "version": "1.0.1-beta",
   "publishedDate": "2026-10-08",
   "signing": "debug-beta",
   "minAndroid": "7.0",
-  "sizeMB": 13.68,
+  "sizeMB": 13.84,
   "personalCredentialsIncluded": false,
   "trialEnabled": false
 }

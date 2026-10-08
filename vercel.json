@@ -7,7 +7,10 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
         {
           "key": "Referrer-Policy",
           "value": "strict-origin-when-cross-origin"
@@ -20,6 +23,11 @@
     }
   ],
   "redirects": [
+    {
+      "source": "/downloads/NEXUS-OS-1.0.1-beta.apk",
+      "destination": "https://github.com/sinn1088/nexus-downloads/releases/download/v1.0.1-beta/NEXUS-OS-1.0.1-beta.apk",
+      "permanent": false
+    },
     {
       "source": "/downloads/NEXUS-OS-1.0.0-beta.apk",
       "destination": "https://github.com/sinn1088/nexus-downloads/releases/download/v1.0.0-beta/NEXUS-OS-1.0.0-beta.apk",
